@@ -1,0 +1,19 @@
+[
+  { "code": "KRW", "ko": "대한민국 원", "symbol": "₩", "flag": "🇰🇷", "decimals": 0, "popular": true, "order": 0 },
+  { "code": "USD", "ko": "미국 달러", "symbol": "$", "flag": "🇺🇸", "decimals": 2, "popular": true, "order": 1 },
+  { "code": "JPY", "ko": "일본 엔", "symbol": "¥", "flag": "🇯🇵", "decimals": 0, "popular": true, "order": 2 },
+  { "code": "EUR", "ko": "유로", "symbol": "€", "flag": "🇪🇺", "decimals": 2, "popular": true, "order": 3 },
+  { "code": "CNY", "ko": "중국 위안", "symbol": "¥", "flag": "🇨🇳", "decimals": 2, "popular": true, "order": 4 },
+  { "code": "THB", "ko": "태국 바트", "symbol": "฿", "flag": "🇹🇭", "decimals": 2, "popular": true, "order": 5 },
+  { "code": "VND", "ko": "베트남 동", "symbol": "₫", "flag": "🇻🇳", "decimals": 0, "popular": true, "order": 6 },
+  { "code": "TWD", "ko": "대만 달러", "symbol": "NT$", "flag": "🇹🇼", "decimals": 2, "popular": false, "order": 7 },
+  { "code": "HKD", "ko": "홍콩 달러", "symbol": "HK$", "flag": "🇭🇰", "decimals": 2, "popular": false, "order": 8 },
+  { "code": "SGD", "ko": "싱가포르 달러", "symbol": "S$", "flag": "🇸🇬", "decimals": 2, "popular": false, "order": 9 },
+  { "code": "PHP", "ko": "필리핀 페소", "symbol": "₱", "flag": "🇵🇭", "decimals": 2, "popular": false, "order": 10 },
+  { "code": "IDR", "ko": "인도네시아 루피아", "symbol": "Rp", "flag": "🇮🇩", "decimals": 0, "popular": false, "order": 11 },
+  { "code": "GBP", "ko": "영국 파운드", "symbol": "£", "flag": "🇬🇧", "decimals": 2, "popular": false, "order": 12 },
+  { "code": "AUD", "ko": "호주 달러", "symbol": "A$", "flag": "🇦🇺", "decimals": 2, "popular": false, "order": 13 },
+  { "code": "CAD", "ko": "캐나다 달러", "symbol": "C$", "flag": "🇨🇦", "decimals": 2, "popular": false, "order": 14 },
+  { "code": "CHF", "ko": "스위스 프랑", "symbol": "Fr", "flag": "🇨🇭", "decimals": 2, "popular": false, "order": 15 },
+  { "code": "MYR", "ko": "말레이시아 링깃", "symbol": "RM", "flag": "🇲🇾", "decimals": 2, "popular": false, "order": 16 }
+]

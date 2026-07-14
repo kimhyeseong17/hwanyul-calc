@@ -1,0 +1,17 @@
+{
+  "name": "환율계산기",
+  "short_name": "환율계산",
+  "tagline": "여행 환율, 실시간으로 간편하게",
+  "baseUrl": "https://hwanyul-calc.netlify.app",
+  "desc": "해외여행 환율 계산기 — 미국 달러·일본 엔·유로·중국 위안 등 160여 개 통화의 실시간 환율을 원화 기준으로 즉시 환산합니다. 홈 화면에 설치하면 앱처럼 열리고, 오프라인에서도 최근 환율로 계산할 수 있습니다.",
+  "contactEmail": "kimhyeseong17@gmail.com",
+  "themeColor": "#0b7285",
+  "backgroundColor": "#ffffff",
+  "googleVerification": "",
+  "naverVerification": "",
+  "adfitUnit": "",
+  "gaId": "",
+  "ratesApi": "https://open.er-api.com/v6/latest/KRW",
+  "ratesApiFallback": "https://api.frankfurter.dev/v1/latest?from=KRW",
+  "dataSource": "open.er-api.com (Exchange Rate API)"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "hwanyul-calc",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "여행 환율 계산기 — 실시간 자동 갱신 · 설치형 PWA (의존성 0 정적 생성기)",
+  "scripts": {
+    "icons": "node scripts/gen-icons.mjs",
+    "fetch": "node scripts/fetch-rates.mjs",
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+*.log
+*.zip
+.DS_Store
+# data/rates.json 은 커밋한다(Netlify 빌드가 첫 페인트용으로 임베드)

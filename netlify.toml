@@ -1,0 +1,23 @@
+# Netlify 배포 설정 — git push 시 자동 빌드 (의존성 0)
+[build]
+  command = "node scripts/build.mjs"   # data/*.json → dist/ 정적 생성
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+
+# 서비스워커는 항상 최신을 받아야 캐시 무효화가 동작한다
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/manifest.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json"

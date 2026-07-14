@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="환율계산기">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d8499"/>
+      <stop offset="1" stop-color="#095c6c"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="34" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M138 215 H336"/>
+    <path d="M300 179 L360 215 L300 251"/>
+    <path d="M374 297 H176"/>
+    <path d="M212 261 L152 297 L212 333"/>
+  </g>
+</svg>
